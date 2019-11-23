@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1981868345819762}
+  m_IsPrefabParent: 1
+--- !u!1 &1981868345819762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4412352485481156}
+  - component: {fileID: 114295083195638780}
+  m_Layer: 0
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4412352485481156
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981868345819762}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114295083195638780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981868345819762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce0eb986eb84cd24eb9a852cb835b0a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CubeGrass: {fileID: 1934044277882916, guid: 5711a973e17bf7848aaddcf7d1f9e08c, type: 2}
+  CubeStone: {fileID: 1934044277882916, guid: 577fcca1b4477914b8797009421de128, type: 2}
+  CubeTree: {fileID: 1934044277882916, guid: 7471f16350d696145b53099cf3ca4e67, type: 2}
+  CubeSoil: {fileID: 1934044277882916, guid: 18cb6e9abe16f6445a30e8025d8e57be, type: 2}
+  CubeRiver: {fileID: 1934044277882916, guid: 527cc8a440ff228428bb3762acbe1cf7, type: 2}
