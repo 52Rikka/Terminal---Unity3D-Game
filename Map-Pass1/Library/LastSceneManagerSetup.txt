@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Map-Pass1.unity
-  isLoaded: 1
-  isActive: 1
